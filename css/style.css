@@ -5,7 +5,7 @@ body {
   padding: 0;
 }
 
-nav {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,7 +17,7 @@ nav {
   margin: 0;
 }
 
-nav a {
+header a {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -33,11 +33,14 @@ nav button {
 }
 
 .hdln {
+  display: flex;
+  flex-direction: column;
   background-color: #1c1a19;
+  background-image: url('/images/bckimg.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
   padding-left: 24px;
   padding-right: 24px;
-  padding-top: 120px;
-  padding-bottom: 130px;
 }
 
 .hdln h1 {
@@ -47,6 +50,7 @@ nav button {
   font-size: 56px;
   color: #ff6b00;
   margin: 0;
+  margin-top: 120px;
 }
 
 .hdln h4 {
@@ -75,6 +79,7 @@ nav button {
   align-items: baseline;
   padding: 0;
   margin-right: 140px;
+  margin-bottom: 130px;
 }
 
 .sclmed button {
