@@ -81,12 +81,3 @@ nav button {
   margin-right: 140px;
   margin-bottom: 130px;
 }
-
-.sclmed button {
-  width: 17px;
-  height: 20px;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-}
