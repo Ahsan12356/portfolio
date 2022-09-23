@@ -6,7 +6,7 @@
  1. Toolbar that contains logo and menu button for mobile app.
  2. My introduction part (my name and my field of work). 
  
-This is the second milestone of my portfolio project. In this project, I had to create a middle section that contains two more sections
+>This is the second milestone of my portfolio project. In this project, I had to create a middle section that contains two more sections
 i. Works Section
 ii. About Myself section
 
