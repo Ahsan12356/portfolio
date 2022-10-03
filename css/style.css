@@ -237,9 +237,6 @@ nav button {
 }
 
 .prj ul {
-  display: flex;
-  justify-content: space-between;
-  align-content: flex-start;
   list-style: none;
   padding: 0;
   margin-left: 16px;
@@ -248,14 +245,15 @@ nav button {
 }
 
 .prj li {
+  float: left;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   background-color: rgba(255, 255, 255, 0.24);
   color: #fff;
-  padding: 10px 12px;
-  margin-right: 12px;
+  padding: 10px 8px;
+  margin-right: 5px;
 }
 
 .prjs .prj button {
