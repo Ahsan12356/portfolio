@@ -153,8 +153,6 @@ nav button {
 }
 
 .prj1 ul {
-  display: flex;
-  justify-content: space-between;
   margin: 0;
   margin-right: 20px;
   padding: 0;
@@ -162,8 +160,8 @@ nav button {
 }
 
 .prj1 li {
+  float: left;
   padding: 10px 12px;
-  display: flex;
   width: fit-content;
   height: fit-content;
   justify-content: center;
