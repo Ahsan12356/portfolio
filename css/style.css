@@ -237,6 +237,9 @@ nav button {
 }
 
 .prj ul {
+  /* display: flex; */
+  justify-content: space-between;
+  align-content: flex-start;
   list-style: none;
   padding: 0;
   margin-left: 16px;
