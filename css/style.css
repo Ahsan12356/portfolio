@@ -547,6 +547,12 @@ footer #sbmt {
   color: #fff;
 }
 
+#sbmt:hover {
+  border: solid 1px #ff6b00;
+  background-color: #fff5e1;
+  color: #ff6b00;
+}
+
 hr {
   border: solid 1px #dfe1e6;
   width: 100%;
