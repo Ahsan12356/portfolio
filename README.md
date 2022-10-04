@@ -1,25 +1,28 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Ahsan Ghazni Khan portfolio.
+# Ahsan Ghazni Khan portfolio website.
 
->This is my portfolio website design beginning part. In this first milestone of the project, I had to build first two sections of my portfolio website project. These two sections are:
- 1. Toolbar that contains logo and menu button for mobile app.
- 2. My introduction part (my name and my field of work). 
- 
->This is the second milestone of my portfolio project. In this project, I had to create a middle section that contains two more sections
-i. Works Section
-ii. About Myself section
+>This is the third milestone of my portfolio project. In this milestone I built footer section of the project my portfolio website mobile version. The footer section of my portfolio website contains contact me form where user is given option to easily contact me and share his details with me. 
 
 
 ## Built With
 
-- HTML and CSS.
+- HTML
+- CSS
 
 
 ## Project Status
 This project is still under development.
 
-## Author
+## Screenshoot
+
+![127 0 0 1_5500_index html (1)](https://user-images.githubusercontent.com/22774319/193881336-db5799bd-def5-43ea-9660-fbc2442bfdf4.png)
+
+
+![127 0 0 1_5500_index html (2)](https://user-images.githubusercontent.com/22774319/193881511-c465cd47-5f25-4016-a8e4-e38562c34225.png)
+![127 0 0 1_5500_index html (3)](https://user-images.githubusercontent.com/22774319/193881539-adf79d1c-3535-4e3e-83b1-cc72c726bb4f.png)
+
+## Authors
 
 👤 **Ahsan Ghazni Khan**
 
