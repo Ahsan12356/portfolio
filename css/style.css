@@ -347,6 +347,7 @@ nav button {
 }
 
 .sprtr {
+  margin-top: 40px;
   height: 0.1px;
   background-color: silver;
   margin-bottom: 136px;
@@ -465,10 +466,90 @@ ul.skl {
   color: #fff;
   padding: 0;
   padding-top: 44px;
+  padding-bottom: 131px;
   margin: 0;
   list-style: none;
 }
 
 .abtme ul.skl li {
   margin-bottom: 2px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+footer form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+footer h3.ftr {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #172b4d;
+  text-align: center;
+}
+
+footer input {
+  border: none;
+  height: 44px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+footer #name {
+  padding-left: 12px;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+footer #mail {
+  padding-left: 12px;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+footer #msg {
+  padding-left: 12px;
+  padding-top: 12px;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  background-color: #fbf8f7;
+  height: 114px;
+}
+
+footer .sbmt_cntnr {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+footer #sbmt {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  height: 48px;
+  background-color: #ff6b00;
+  padding: 12px 12px;
+  color: #fff;
+}
+
+hr {
+  border: solid 1px #dfe1e6;
+  width: 100%;
+  margin-top: 124px;
+  margin-bottom: 0;
 }
