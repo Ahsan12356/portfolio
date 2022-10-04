@@ -30,6 +30,8 @@ nav button {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  padding: 0;
+  padding-top: 6px;
 }
 
 .hdln {
@@ -346,13 +348,6 @@ nav button {
   color: #5b5957;
 }
 
-.sprtr {
-  margin-top: 40px;
-  height: 0.1px;
-  background-color: silver;
-  margin-bottom: 136px;
-}
-
 .abtme h3.lng {
   display: flex;
   align-self: center;
@@ -553,9 +548,33 @@ footer #sbmt {
   color: #ff6b00;
 }
 
+#sbmt:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+#sbmt:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
+
 hr {
   border: solid 1px #dfe1e6;
   width: 100%;
-  margin-top: 124px;
-  margin-bottom: 0;
+  margin-top: 136px;
+  margin-bottom: 136px;
+}
+
+footer hr {
+  margin-top: 136px;
+  margin-bottom: 20px;
+}
+
+footer ul.sclmed {
+  display: flex;
+  justify-content: center;
+  column-gap: 21px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 38px;
 }
