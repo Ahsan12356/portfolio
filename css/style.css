@@ -33,6 +33,10 @@ header a {
   color: white;
 }
 
+header a:hover{
+  transform: rotate(10deg);
+}
+
 nav button {
   margin-top: 5px;
   background-color: transparent;
