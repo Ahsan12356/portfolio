@@ -32,10 +32,12 @@ header a {
   font-size: 18px;
   text-decoration: none;
   color: white;
+  animation-name: rot;
+  animation-duration: 2s;
 }
 
-header a:hover {
-  transform: rotate(10deg);
+@keyframes rot {
+  100% { transform: rotate(360deg); }
 }
 
 nav button {
@@ -148,12 +150,20 @@ nav button {
   margin-bottom: 130px;
 }
 
+.sclmed li {
+  transition: transform 1s;
+}
+
 @media (min-width: 768px) {
   .sclmed {
     flex-direction: column;
     position: absolute;
     top: 50%;
     row-gap: 29px;
+  }
+
+  .sclmed li:hover {
+    transform: scale(2);
   }
 }
 
@@ -302,6 +312,7 @@ nav button {
   color: #fff;
   border: none;
   padding: 12px;
+  transition: background-color 1s;
 }
 
 .prj1 button:hover {
@@ -409,6 +420,7 @@ nav button {
   color: #fff;
   border: none;
   padding: 12px;
+  transition: background-color 1s;
 }
 
 .prj button:hover {
@@ -485,6 +497,7 @@ nav button {
   border: none;
   padding: 12px;
   margin-bottom: 209px;
+  transition: background-color 1s;
 }
 
 .abtme button:hover {
@@ -715,6 +728,7 @@ ul.skl {
   background-color: #ff6b00;
   padding: 12px 12px;
   color: #fff;
+  transition: background-color 1s;
 }
 
 #cntct #sbmt:hover {
@@ -754,6 +768,10 @@ footer ul.sclmed_cntc {
   padding-top: 24px;
 }
 
+:where(footer ul.sclmed_cntc li) {
+  transition: transform 1s;
+}
+
 @media (min-width: 768px) {
   #cntct {
     display: flex;
@@ -775,5 +793,9 @@ footer ul.sclmed_cntc {
 
   #cntct .sbmt_cntnr {
     justify-content: left;
+  }
+
+  footer ul.sclmed_cntc li:hover {
+    transform: scale(2);
   }
 }
