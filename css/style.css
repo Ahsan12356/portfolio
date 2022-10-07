@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  width: fit-content;
 }
 
 header {
@@ -33,7 +34,7 @@ header a {
   color: white;
 }
 
-header a:hover{
+header a:hover {
   transform: rotate(10deg);
 }
 
@@ -502,9 +503,22 @@ nav button {
   color: #5b5957;
 }
 
+.tech_dtls {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .tech_dtls {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
 .abtme h3.lng {
   display: flex;
   align-self: center;
+  justify-content: center;
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -542,8 +556,7 @@ nav button {
 
 h3.frmwrks {
   display: flex;
-  align-self: center;
-  align-content: center;
+  justify-content: center;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -592,6 +605,12 @@ ul.frmwrks {
   margin-top: 44px;
 }
 
+@media (min-width: 768px) {
+  .abtme h3.skl {
+    margin-top: 0;
+  }
+}
+
 .abtme h3.skl::before {
   align-self: baseline;
   margin-top: -3px;
@@ -624,21 +643,21 @@ ul.skl {
   margin-bottom: 2px;
 }
 
-footer {
+#cntct {
   display: flex;
   flex-direction: column;
   padding-top: 120px;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 
-footer form {
+#cntct form {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
-footer h3.ftr {
+#cntct h3.ftr {
   padding: 0;
   margin: 0;
   font-family: 'Inter', sans-serif;
@@ -647,9 +666,11 @@ footer h3.ftr {
   font-size: 32px;
   color: #172b4d;
   text-align: center;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
-footer input {
+#cntct input {
   border: none;
   height: 44px;
   font-family: 'Inter', sans-serif;
@@ -658,17 +679,17 @@ footer input {
   font-size: 15px;
 }
 
-footer #name {
+#cntct #name {
   padding-left: 12px;
   border-bottom: 1px solid #dbd8d7;
 }
 
-footer #mail {
+#cntct #mail {
   padding-left: 12px;
   border-bottom: 1px solid #dbd8d7;
 }
 
-footer #msg {
+#cntct #msg {
   padding-left: 12px;
   padding-top: 12px;
   border: none;
@@ -680,13 +701,13 @@ footer #msg {
   height: 114px;
 }
 
-footer .sbmt_cntnr {
+#cntct .sbmt_cntnr {
   height: fit-content;
   display: flex;
   justify-content: center;
 }
 
-footer #sbmt {
+#cntct #sbmt {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -696,18 +717,18 @@ footer #sbmt {
   color: #fff;
 }
 
-#sbmt:hover {
+#cntct #sbmt:hover {
   border: solid 1px #ff6b00;
   background-color: #fff5e1;
   color: #ff6b00;
 }
 
-#sbmt:active {
+#cntct #sbmt:active {
   background-color: #e05304;
   color: #f4f1f0;
 }
 
-#sbmt:disabled {
+#cntct #sbmt:disabled {
   background-color: #f4f1f0;
   color: #5b5957;
 }
@@ -719,17 +740,41 @@ footer #sbmt {
   margin-bottom: 136px;
 }
 
-footer#cntct hr {
-  width: 100%;
-  margin-top: 136px;
-  margin-bottom: 20px;
-}
-
-footer ul.sclmed {
+footer ul.sclmed_cntc {
   display: flex;
-  justify-content: center;
+  margin: 0;
+  margin-top: 124px;
+  list-style: none;
   column-gap: 21px;
   width: 100%;
-  margin: auto;
   margin-bottom: 38px;
+  border-top: 1px solid gray;
+  justify-content: center;
+  padding: 0;
+  padding-top: 24px;
+}
+
+@media (min-width: 768px) {
+  #cntct {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  #cntct h3.ftr {
+    margin-left: 120px;
+    width: 50%;
+  }
+
+  #cntct form {
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  #cntct .sbmt_cntnr {
+    justify-content: left;
+  }
+
 }
