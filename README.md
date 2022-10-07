@@ -2,21 +2,21 @@
 
 # Ahsan Ghazni Khan portfolio website.
 
->This is the third milestone of my portfolio project. In this milestone I built footer section of the project my portfolio website mobile version. The footer section of my portfolio website contains contact me form where user is given option to easily contact me and share his details with me. 
+>This is the fourth milestone of my portfolio project. In this milestone I integrated desktop version of the project my portfolio website mobile version. The footer section of my portfolio website contains contact me form where user is given option to easily contact me and share his details with me. 
 
 
 ## Built With
 
 - HTML
 - CSS
+- HTML and CSS linters
+- media queries 
 
 
 ## Project Status
 This project is still under development.
 
 ## Screenshoot
-
-
 
 
 ## Authors
