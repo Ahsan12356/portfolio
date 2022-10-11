@@ -393,6 +393,7 @@ nav button {
 }
 
 .prj ul {
+  display: flex;
   list-style: none;
   padding: 0;
   margin-left: 16px;
@@ -401,7 +402,6 @@ nav button {
 }
 
 .prj li {
-  float: left;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
