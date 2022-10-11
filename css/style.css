@@ -247,8 +247,6 @@ nav button {
 }
 
 .prj1 img {
-  width: fit-content;
-  height: fit-content;
   margin: 0;
   padding: 0;
 }
@@ -306,31 +304,32 @@ nav button {
 .prj1 button {
   width: 124px;
   height: 48px;
-  background-color: #e05304;
+  background-color: #ff6a00;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
-  color: white;
+  color: rgb(255, 255, 255);
   border: none;
   padding: 12px;
   transition: background-color 1s;
 }
 
 .prj1 button:hover {
-  background-color: white;
-  color: #e05304;
+  background-color: #fff5e1;
+  color: #f55a00;
+  border: 1px solid #f55a00;
 }
 
-/* .prj1 button:active {
-  background-color: #e05304;
-  color: white;
+.prj1 button:active {
+  background-color: #e05504;
+  color: #f4f1f0;
 }
 
 .prj1 button:disabled {
-  background-color: white;
+  background-color: #f4f1f0;
   color: #5b5957;
-} */
+}
 
 .nextprjs {
   display: flex;
@@ -392,7 +391,6 @@ nav button {
 }
 
 .prj ul {
-  display: flex;
   list-style: none;
   padding: 0;
   margin-left: 16px;
@@ -401,6 +399,7 @@ nav button {
 }
 
 .prj li {
+  float: left;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -425,9 +424,22 @@ nav button {
 }
 
 .prj button:hover {
-  background-color: #fff;
+  background-color: #fff5e1;
   color: #f55800;
+  border: 1px solid #f55800;
 }
+
+.prj button:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.prj button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
+
+/* end wrks section  */
 
 .abtme {
   display: flex;
@@ -480,28 +492,33 @@ nav button {
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
-  background-color: #e05304;
-  color: white;
+  background-color: #ff6b00;
+  color: #fff;
   border: none;
   padding: 12px;
   margin-bottom: 209px;
   transition: background-color 1s;
+  filter: brightness(100%);
 }
 
 .abtme button:hover {
-  background-color: white;
-  color: #e05304;
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55a00;
+  filter: brightness(100%);
 }
 
-/* .abtme button:active {
-  background-color: #e05304;
-  color: white;
+.abtme button:active {
+  background-color: #e05504;
+  color: #f4f1f0;
+  filter: brightness(100%);
 }
 
 .abtme button:disabled {
-  background-color: white;
-  color: hsl(30, 2%, 35%);
-} */
+  background-color: #f4f1f0;
+  color: #5b5957;
+  filter: brightness(100%);
+}
 
 .tech_dtls {
   display: flex;
@@ -719,9 +736,19 @@ ul.skl {
 }
 
 #cntct #sbmt:hover {
-  background-color: #fff;
-  color: #ff6b00;
   border: solid 1px #ff6b00;
+  background-color: #fff5e1;
+  color: #ff6b00;
+}
+
+#cntct #sbmt:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+#cntct #sbmt:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
 }
 
 .abtme hr {
