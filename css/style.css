@@ -304,7 +304,7 @@ nav button {
 .prj1 button {
   width: 124px;
   height: 48px;
-  background-color: #f55800;
+  background-color: #c35000;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -312,16 +312,18 @@ nav button {
   color: white;
   border: none;
   padding: 12px;
+  text-decoration-color: white;
 }
 
 .prj1 button:hover {
   background-color: white;
-  color: #f55800;
-  border: 1px solid hsl(22, 100%, 48%);
+  color: #c35000;
+  border: 1px solid #c35000;
+  text-decoration-color: wheat;
 }
 
 .prj1 button:active {
-  background-color: #e05304;
+  background-color: #c35000;
   color: white;
   border-color: transparent;
   text-decoration-color: white;
@@ -329,7 +331,7 @@ nav button {
 }
 
 .prj1 button:focus {
-  background-color: #e05304;
+  background-color: #c35000;
   color: white;
   border-color: transparent;
   text-decoration-color: white;
