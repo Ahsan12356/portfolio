@@ -311,25 +311,25 @@ nav button {
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
-  color: #fff;
+  color: white;
   border: none;
   padding: 12px;
   transition: background-color 1s;
 }
 
 .prj1 button:hover {
-  background-color: #fff;
+  background-color: white;
   color: #e05304;
   border: 1px solid #e05304;
 }
 
 .prj1 button:active {
   background-color: #e05304;
-  color: #fff;
+  color: white;
 }
 
 .prj1 button:disabled {
-  background-color: #fff;
+  background-color: white;
   color: #5b5957;
 }
 
@@ -495,7 +495,7 @@ nav button {
   font-weight: 700;
   font-size: 17px;
   background-color: #e05304;
-  color: #fff;
+  color: white;
   border: none;
   padding: 12px;
   margin-bottom: 209px;
@@ -503,18 +503,18 @@ nav button {
 }
 
 .abtme button:hover {
-  background-color: #fff;
+  background-color: white;
   color: #e05304;
   border: 1px solid #e05304;
 }
 
 .abtme button:active {
   background-color: #e05304;
-  color: #fff;
+  color: white;
 }
 
 .abtme button:disabled {
-  background-color: #fff;
+  background-color: white;
   color: #5b5957;
 }
 
