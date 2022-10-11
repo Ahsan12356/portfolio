@@ -309,32 +309,32 @@ nav button {
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
-  color: rgb(255, 255, 255);
+  color: white;
   border: none;
   padding: 12px;
   transition: background-color 1s;
 }
 
 .prj1 button:hover {
-  background-color: #fff5e1;
+  background-color: white;
   color: #f55a00;
   border: 1px solid #f55a00;
 }
 
 .prj1 button:active {
   background-color: #e05504;
-  color: #f4f1f0;
+  color: white;
   border: none;
 }
 
 .prj1 button:focus {
   background-color: #e05504;
-  color: #f4f1f0;
+  color: white;
   border: none;
 }
 
 .prj1 button:disabled {
-  background-color: #f4f1f0;
+  background-color: white;
   color: #5b5957;
 }
 
@@ -500,7 +500,7 @@ nav button {
   font-weight: 700;
   font-size: 17px;
   background-color: #ff6b00;
-  color: rgb(255, 255, 255);
+  color: white;
   border: none;
   padding: 12px;
   margin-bottom: 209px;
@@ -508,26 +508,26 @@ nav button {
 }
 
 .abtme button:hover {
-  background-color: #fff5e1;
+  background-color: white;
   color: #f55a00;
   border: 1px solid #f55a00;
 }
 
 .abtme button:active {
   background-color: #e05504;
-  color: #f4f1f0;
+  color: white;
   border: none;
 }
 
 .abtme button:focus {
   background-color: #e05504;
-  color: #f4f1f0;
+  color: white;
   border: none;
 }
 
 .abtme button:disabled {
   border: none;
-  background-color: #f4f1f0;
+  background-color: white;
   color: #5b5957;
 }
 
