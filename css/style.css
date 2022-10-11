@@ -304,7 +304,7 @@ nav button {
 .prj1 button {
   width: 124px;
   height: 48px;
-  background-color: #ff6b00;
+  background-color: #ff3c00;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -316,18 +316,18 @@ nav button {
 }
 
 .prj1 button:hover {
-  background-color: #fff5e1;
-  color: #f55800;
-  border: 1px solid #f55800;
+  background-color: #fff;
+  color: #ff3c00;
+  border: 1px solid #ff3c00;
 }
 
 .prj1 button:active {
-  background-color: #e05304;
-  color: #f4f1f0;
+  background-color: #ff3c00;
+  color: #fff;
 }
 
 .prj1 button:disabled {
-  background-color: #f4f1f0;
+  background-color: #fff;
   color: #5b5957;
 }
 
@@ -492,7 +492,7 @@ nav button {
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
-  background-color: #ff6b00;
+  background-color: #ff3c00;
   color: #fff;
   border: none;
   padding: 12px;
@@ -501,18 +501,18 @@ nav button {
 }
 
 .abtme button:hover {
-  background-color: #fff5e1;
-  color: #f55800;
-  border: 1px solid #f55800;
+  background-color: #fff;
+  color: #ff3c00;
+  border: 1px solid #ff3c00;
 }
 
 .abtme button:active {
-  background-color: #e05304;
-  color: #f4f1f0;
+  background-color: #ff3c00;
+  color: #fff;
 }
 
 .abtme button:disabled {
-  background-color: #f4f1f0;
+  background-color: #fff;
   color: #5b5957;
 }
 
