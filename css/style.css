@@ -324,13 +324,13 @@ nav button {
 .prj1 button:active {
   background-color: #f15901;
   color: white;
-  border: none;
+  border-color: transparent;
 }
 
 .prj1 button:focus {
   background-color: #f15901;
   color: white;
-  border: none;
+  border-color: transparent;
 }
 
 .prj1 button:disabled {
@@ -516,13 +516,13 @@ nav button {
 .abtme button:active {
   background-color: #f15901;
   color: white;
-  border: none;
+  border-color: transparent;
 }
 
 .abtme button:focus {
   background-color: #f15901;
   color: white;
-  border: none;
+  border-color: transparent;
 }
 
 .abtme button:disabled {
