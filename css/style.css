@@ -315,20 +315,20 @@ nav button {
   border: none;
   padding: 12px;
   transition: background-color 1s;
-  filter: contrast(1);
+  filter: contrast(1.5);
 }
 
 .prj1 button:hover {
   background-color: white;
   color: #e05304;
   border: 1px solid #e05304;
-  filter: contrast(1);
+  filter: contrast(1.5);
 }
 
 .prj1 button:active {
   background-color: #e05304;
   color: white;
-  filter: contrast(1);
+  filter: contrast(1.5);
 }
 
 .prj1 button:disabled {
@@ -510,19 +510,19 @@ nav button {
   background-color: white;
   color: #e05304;
   border: 1px solid #e05304;
-  filter: contrast(1);
+  filter: contrast(0.2);
 }
 
 .abtme button:active {
   background-color: #e05304;
   color: white;
-  filter: contrast(1);
+  filter: contrast(0.2);
 }
 
 .abtme button:disabled {
   background-color: white;
   color: #5b5957;
-  filter: contrast(1);
+  filter: contrast(0.2);
 }
 
 .tech_dtls {
