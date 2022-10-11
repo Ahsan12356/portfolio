@@ -313,18 +313,21 @@ nav button {
   border: none;
   padding: 12px;
   transition: background-color 1s;
+  text-decoration-color: white;
 }
 
 .prj1 button:hover {
   background-color: white;
   color: #c35000;
   border: 1px solid #c35000;
+  text-decoration-color: wheat;
 }
 
 .prj1 button:active {
   background-color: #c35000;
   color: white;
   border-color: transparent;
+  text-decoration-color: white;
   outline: none;
 }
 
@@ -332,6 +335,7 @@ nav button {
   background-color: #c35000;
   color: white;
   border-color: transparent;
+  text-decoration-color: white;
   outline: none;
 }
 
@@ -507,18 +511,21 @@ nav button {
   padding: 12px;
   margin-bottom: 209px;
   transition: background-color 1s;
+  text-decoration-color: white;
 }
 
 .abtme button:hover {
   background-color: white;
   color: #c35000;
   border: 1px solid #c35000;
+  text-decoration-color: white;
 }
 
 .abtme button:active {
   background-color: #c35000;
   color: white;
   border-color: transparent;
+  text-decoration-color: white;
   outline: none;
 }
 
@@ -526,6 +533,7 @@ nav button {
   background-color: #c35000;
   color: white;
   border-color: transparent;
+  text-decoration-color: white;
   outline: none;
 }
 
