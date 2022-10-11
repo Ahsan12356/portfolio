@@ -500,22 +500,26 @@ nav button {
   padding: 12px;
   margin-bottom: 209px;
   transition: background-color 1s;
+  filter: contrast(200%);
 }
 
 .abtme button:hover {
   background-color: white;
   color: #e05304;
   border: 1px solid #e05304;
+  filter: contrast(100%);
 }
 
 .abtme button:active {
   background-color: #e05304;
   color: white;
+  filter: contrast(100%);
 }
 
 .abtme button:disabled {
   background-color: white;
   color: #5b5957;
+  filter: contrast(100%);
 }
 
 .tech_dtls {
