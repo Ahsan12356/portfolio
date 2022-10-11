@@ -313,28 +313,24 @@ nav button {
   border: none;
   padding: 12px;
   transition: background-color 1s;
-  filter: brightness(100%);
 }
 
 .prj1 button:hover {
   background-color: #fff5e1;
   color: #f55a00;
   border: 1px solid #f55a00;
-  filter: brightness(100%);
 }
 
 .prj1 button:active {
   background-color: #e05504;
   color: #f4f1f0;
   border: none;
-  filter: brightness(100%);
 }
 
 .prj1 button:focus {
   background-color: #e05504;
   color: #f4f1f0;
   border: none;
-  filter: brightness(100%);
 }
 
 .prj1 button:disabled {
@@ -530,6 +526,7 @@ nav button {
 }
 
 .abtme button:disabled {
+  border: none;
   background-color: #f4f1f0;
   color: #5b5957;
 }
