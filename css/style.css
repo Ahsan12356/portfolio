@@ -304,7 +304,7 @@ nav button {
 .prj1 button {
   width: 124px;
   height: 48px;
-  background-color: #ff6a00;
+  background-color: #f15901;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -317,18 +317,18 @@ nav button {
 
 .prj1 button:hover {
   background-color: white;
-  color: #f55a00;
-  border: 1px solid #f55a00;
+  color: #f15901;
+  border: 1px solid #f15901;
 }
 
 .prj1 button:active {
-  background-color: #e05504;
+  background-color: #f15901;
   color: white;
   border: none;
 }
 
 .prj1 button:focus {
-  background-color: #e05504;
+  background-color: #f15901;
   color: white;
   border: none;
 }
@@ -499,7 +499,7 @@ nav button {
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
-  background-color: #ff6b00;
+  background-color: #f15901;
   color: white;
   border: none;
   padding: 12px;
@@ -510,17 +510,17 @@ nav button {
 .abtme button:hover {
   background-color: white;
   color: #f55a00;
-  border: 1px solid #f55a00;
+  border: 1px solid #f15901;
 }
 
 .abtme button:active {
-  background-color: #e05504;
+  background-color: #f15901;
   color: white;
   border: none;
 }
 
 .abtme button:focus {
-  background-color: #e05504;
+  background-color: #f15901;
   color: white;
   border: none;
 }
