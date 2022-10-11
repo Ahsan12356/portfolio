@@ -312,7 +312,6 @@ nav button {
   color: white;
   border: none;
   padding: 12px;
-  transition: background-color 1s;
   text-decoration-color: white;
 }
 
@@ -510,7 +509,6 @@ nav button {
   border: none;
   padding: 12px;
   margin-bottom: 209px;
-  transition: background-color 1s;
   text-decoration-color: white;
 }
 
