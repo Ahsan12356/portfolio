@@ -309,30 +309,30 @@ nav button {
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   border: none;
   padding: 12px;
   transition: background-color 1s;
-  filter: contrast(200%) brightness(100%);
+  filter: brightness(100%);
 }
 
 .prj1 button:hover {
   background-color: #fff5e1;
   color: #f55a00;
   border: 1px solid #f55a00;
-  filter: contrast(200%) brightness(100%);
+  filter: brightness(100%);
 }
 
 .prj1 button:active {
   background-color: #e05504;
   color: #f4f1f0;
-  filter: contrast(200%) brightness(100%);
+  filter: brightness(100%);
 }
 
 .prj1 button:focus {
   background-color: #e05504;
   color: #f4f1f0;
-  filter: contrast(200%) brightness(100%);
+  filter: brightness(100%);
 }
 
 .prj1 button:disabled {
@@ -502,37 +502,32 @@ nav button {
   font-weight: 700;
   font-size: 17px;
   background-color: #ff6b00;
-  color: #fff;
+  color: rgba(255, 255, 255, 0);
   border: none;
   padding: 12px;
   margin-bottom: 209px;
   transition: background-color 1s;
-  filter: brightness(100%);
 }
 
 .abtme button:hover {
   background-color: #fff5e1;
-  color: #f55800;
+  color: #f55a0000;
   border: 1px solid #f55a00;
-  filter: opacity(100%);
 }
 
 .abtme button:active {
   background-color: #e05504;
-  color: #f4f1f0;
-  filter: brightness(100%);
+  color: #f4f1f000;
 }
 
 .abtme button:focus {
   background-color: #e05504;
-  color: #f4f1f0;
-  filter: brightness(100%);
+  color: #f4f1f000;
 }
 
 .abtme button:disabled {
   background-color: #f4f1f0;
   color: #5b5957;
-  filter: brightness(100%);
 }
 
 .tech_dtls {
