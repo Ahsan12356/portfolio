@@ -312,19 +312,17 @@ nav button {
   color: white;
   border: none;
   padding: 12px;
-  text-decoration-color: white;
 }
 
 .prj1 button:hover {
-  background-color: #fff5e1;
+  background-color: white;
   color: #f55800;
-  border: 1px solid #f55800;
-  text-decoration-color: wheat;
+  border: 1px solid hsl(22, 100%, 48%);
 }
 
 .prj1 button:active {
   background-color: #e05304;
-  color: #f4f1f0;
+  color: white;
   border-color: transparent;
   text-decoration-color: white;
   outline: none;
@@ -332,7 +330,7 @@ nav button {
 
 .prj1 button:focus {
   background-color: #e05304;
-  color: #f4f1f0;
+  color: white;
   border-color: transparent;
   text-decoration-color: white;
   outline: none;
