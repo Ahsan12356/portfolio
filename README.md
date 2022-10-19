@@ -2,7 +2,8 @@
 
 # Ahsan Ghazni Khan portfolio website.
 
-For this milestone of my portfolio website, I implemented the mobile menu using javascript DOM.
+For this milestone of my portfolio website, I implemented a popup window that includes the project details in both desktop and mobile views. In order to do that, I had to store the information about my project in a JavaScript object.
+
 
 ## This is my online version of my portfolio website.
 
@@ -14,6 +15,7 @@ For this milestone of my portfolio website, I implemented the mobile menu using 
 - CSS
 - HTML and CSS linters
 - media queries
+- Javascript DOM maniplation
 
 ## Project Status
 
