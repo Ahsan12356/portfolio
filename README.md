@@ -14,6 +14,7 @@ For this milestone of my portfolio website, I implemented the mobile menu using 
 - CSS
 - HTML and CSS linters
 - media queries
+- Javascript DOM maniplation
 
 ## Project Status
 
