@@ -16,6 +16,11 @@ header {
   padding-left: 24px;
   padding-right: 24px;
   margin: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 @media (min-width: 768px) {
@@ -26,7 +31,7 @@ header {
 }
 
 header a {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -37,7 +42,9 @@ header a {
 }
 
 @keyframes rot {
-  100% { transform: rotate(360deg); }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 nav button {
@@ -50,6 +57,15 @@ nav button {
 
 .mnubr {
   display: none;
+  padding: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.mnubr a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
 }
 
 @media (min-width: 768px) {
@@ -59,6 +75,7 @@ nav button {
 
   .mnubr {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     column-gap: 15px;
@@ -68,10 +85,18 @@ nav button {
   }
 
   .mnubr a {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    margin: 0;
+  }
+
+  .mnubr li {
+    border: none;
   }
 }
 
@@ -79,7 +104,7 @@ nav button {
   display: flex;
   flex-direction: column;
   background-color: #1c1a19;
-  background-image: url('/images/bckimg.png');
+  background-image: url("/images/bckimg.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   padding-left: 24px;
@@ -87,7 +112,7 @@ nav button {
 }
 
 .hdln h1 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -98,7 +123,7 @@ nav button {
 
 .hdln h4 {
   margin-top: 12px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -107,7 +132,7 @@ nav button {
 }
 
 .hdln p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -117,7 +142,7 @@ nav button {
 
 @media (min-width: 768px) {
   .hdln {
-    background-image: url('/images/bckimg-desktop.png');
+    background-image: url("/images/bckimg-desktop.png");
     background-repeat: no-repeat;
     background-position: right bottom;
   }
@@ -190,7 +215,7 @@ nav button {
 .wrks h2 {
   margin: 0;
   padding: 0;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -262,7 +287,7 @@ nav button {
 .prj1 h3 {
   margin: 0;
   padding: 0;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -271,7 +296,7 @@ nav button {
 .prj1 p {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -293,7 +318,7 @@ nav button {
   height: fit-content;
   justify-content: center;
   align-items: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -305,7 +330,7 @@ nav button {
   width: 124px;
   height: 48px;
   background-color: #c35000;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -343,6 +368,17 @@ nav button {
   color: #5b5957;
 }
 
+/* popup.js styling */
+.modlpup {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin: 30px 10px;
+  width: 100%;
+}
+
+/* popup.js styling */
+
 .nextprjs {
   display: flex;
   flex-direction: column;
@@ -356,7 +392,7 @@ nav button {
   }
 
   .prj1 img {
-    content: url('/images/prj1desktop.png');
+    content: url("/images/prj1desktop.png");
   }
 
   .nextprjs {
@@ -375,7 +411,7 @@ nav button {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  background-image: url('/images/Img_Placeholder_mob.png');
+  background-image: url("/images/Img_Placeholder_mob.png");
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 327px;
@@ -383,7 +419,7 @@ nav button {
 }
 
 .prj h3 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -393,7 +429,7 @@ nav button {
 }
 
 .prj p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -412,7 +448,7 @@ nav button {
 
 .prj li {
   float: left;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -425,7 +461,7 @@ nav button {
 .prjs .prj button {
   height: 48px;
   background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -459,7 +495,7 @@ nav button {
   background-color: #1c1a19;
   padding-left: 24px;
   padding-right: 24px;
-  background-image: url('/images/abt_bg_mob.png');
+  background-image: url("/images/abt_bg_mob.png");
   background-repeat: no-repeat;
   background-position: right 27%;
 }
@@ -468,7 +504,7 @@ nav button {
   .abtme {
     padding-left: 143px;
     padding-right: 143px;
-    background-image: url('/images/abt_bg_desktop.png');
+    background-image: url("/images/abt_bg_desktop.png");
     background-repeat: no-repeat;
     background-position: right 5%;
   }
@@ -480,7 +516,7 @@ nav button {
 
 .abtme h2 {
   padding: 0;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -490,7 +526,7 @@ nav button {
 }
 
 .abtme p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -500,7 +536,7 @@ nav button {
 .mdl .abtme button {
   width: fit-content;
   height: 48px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -557,7 +593,7 @@ nav button {
   display: flex;
   align-self: center;
   justify-content: center;
-  font-family: 'InaiMathi', sans-serif;
+  font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -568,7 +604,7 @@ nav button {
 .abtme h3.lng::before {
   margin-right: 12px;
   margin-top: -3px;
-  content: '\25C6';
+  content: "\25C6";
   color: #ff6b00;
 }
 
@@ -580,7 +616,7 @@ nav button {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -595,7 +631,7 @@ nav button {
 h3.frmwrks {
   display: flex;
   justify-content: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -607,7 +643,7 @@ h3.frmwrks {
 h3.frmwrks::before {
   align-self: baseline;
   margin-top: -3px;
-  content: '\25FC';
+  content: "\25FC";
   margin-right: 12px;
   color: #ff6b00;
 }
@@ -616,7 +652,7 @@ ul.frmwrks {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -634,7 +670,7 @@ ul.frmwrks {
 .abtme h3.skl {
   display: flex;
   justify-content: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -652,7 +688,7 @@ ul.frmwrks {
 .abtme h3.skl::before {
   align-self: baseline;
   margin-top: -3px;
-  content: '\25CF';
+  content: "\25CF";
   margin-right: 12px;
   color: #ff6b00;
   transform: scale(1.5, 1.5);
@@ -665,7 +701,7 @@ ul.skl {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -698,7 +734,7 @@ ul.skl {
 #cntct h3.ftr {
   padding: 0;
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -711,7 +747,7 @@ ul.skl {
 #cntct input {
   border: none;
   height: 44px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -722,7 +758,7 @@ ul.skl {
   border-bottom: 1px solid #dbd8d7;
 }
 
-#cntct #mail {
+#cntct #email {
   padding-left: 12px;
   border-bottom: 1px solid #dbd8d7;
 }
@@ -731,7 +767,7 @@ ul.skl {
   padding-left: 12px;
   padding-top: 12px;
   border: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -746,7 +782,7 @@ ul.skl {
 }
 
 #cntct #sbmt {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   height: 48px;
