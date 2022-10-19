@@ -44,6 +44,10 @@ function closePopp() {
   document.body.style.overflow = 'visible';
 }
 
-const pupBtn = document.querySelector('#prj1btn');
-pupBtn.addEventListener('click', addCont);
+const pupBtn = document.querySelectorAll('#prjsbtn');
+pupBtn.forEach(function(btn)
+  {
+     btn.addEventListener('click', addCont);
+  })
+  
 popupClose.addEventListener('click', closePopp);
