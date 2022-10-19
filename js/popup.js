@@ -45,9 +45,8 @@ function closePopp() {
 }
 
 const pupBtn = document.querySelectorAll('#prjsbtn');
-pupBtn.forEach(function(btn)
-  {
-     btn.addEventListener('click', addCont);
-  })
-  
+pupBtn.forEach((btn) => {
+  btn.addEventListener('click', addCont);
+});
+
 popupClose.addEventListener('click', closePopp);
