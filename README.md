@@ -2,7 +2,8 @@
 
 # Ahsan Ghazni Khan portfolio website.
 
-For this milestone of your portfolio website, I implemented client-side validation of the data in the contact form before submission.
+For this final milestone of my portfolio website, I saved the form data in the local storage of the browser. That way when the user reloads the page the data they filled out in the form will be preserved.
+
 
 
 
