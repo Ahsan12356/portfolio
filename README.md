@@ -2,7 +2,8 @@
 
 # Ahsan Ghazni Khan portfolio website.
 
-For this milestone of my portfolio website, I implemented a popup window that includes the project details in both desktop and mobile views. In order to do that, I had to store the information about my project in a JavaScript object.
+For this milestone of your portfolio website, you will implement a client-side validation of the data in the contact form before submission.
+
 
 
 ## This is my online version of my portfolio website.

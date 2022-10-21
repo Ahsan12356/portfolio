@@ -568,6 +568,32 @@ nav button {
 
 /* popup.js styling end */
 
+/* form validation styling */
+
+.errMsg {
+  opacity: 0;
+  background-color: white;
+  border: 2px solid black;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  color: red;
+  align-self: center;
+  justify-self: center;
+  padding: 0;
+  margin: 0;
+  animation-name: hide;
+  animation-duration: 2s;
+}
+
+@keyframes hide {
+  100% {
+    opacity: 0;
+  }
+}
+
+/* form validation styling end */
+
 .nextprjs {
   display: flex;
   flex-direction: column;
