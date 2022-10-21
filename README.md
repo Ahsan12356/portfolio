@@ -2,7 +2,7 @@
 
 # Ahsan Ghazni Khan portfolio website.
 
-For this milestone of your portfolio website, you will implement a client-side validation of the data in the contact form before submission.
+For this milestone of your portfolio website, I implemented client-side validation of the data in the contact form before submission.
 
 
 
