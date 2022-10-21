@@ -69,5 +69,3 @@ function displayMenuCntnr() {
 }
 const hmBtn = document.body.querySelector('#hmbtn');
 hmBtn.addEventListener('click', displayMenuCntnr);
-
-
