@@ -9,10 +9,9 @@ sbmtCntnr.before(errMsg)
 function submitted() {
     const email = document.getElementById('email');
     var i=0;
-    var emailValid;
     while(i<email.value.length) {
         form.addEventListener('click', event => {
-            emailValid = /[A-Z]/.test(email.value)
+            var emailValid = /[A-Z]/.test(email.value)
             if(emailValid) {
                 errMsg.style.opacity=1
                 event.preventDefault()
